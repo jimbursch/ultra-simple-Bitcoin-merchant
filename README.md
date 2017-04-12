@@ -1,6 +1,8 @@
-ultra simple Bitcoin merchant
+ultra simple Dash merchant
 
-this is a (very) simple Bitcoin payment system in PHP written conform the Lazy API (https://en.bitcoin.it/wiki/Lazy_API)
+forked from https://github.com/zooitje/ultra-simple-bitcoin-merchant
+
+this is a (very) simple Dash payment system in PHP written conform the Lazy API (https://en.bitcoin.it/wiki/Lazy_API)
 
 features
 - offer Bitcoin payments on your website in minutes
@@ -8,8 +10,8 @@ features
 - easy configuration
 - suitable for the incompetent webdeveloper
 - few lines of code
-- multi language (french, spanish, portuguese, dutch, english)
-- multi currency (USD and EUR)
+// - multi language (french, spanish, portuguese, dutch, english)
+// - multi currency (USD and EUR)
 - no database
 - no pesky filesystem rights issues
 - no shopping cart
@@ -23,23 +25,20 @@ features
 requirements
 - PHP
 - curl
-- unverified mt Gox account
 
 setup
 - copy the files to a webfolder
-- set the key and secret in /lib/config.php (you get them from your mtgox.com account)
 - communicate your url
-- BTC!
+- Dash!
 
 customize
-- you can just place a link on your website to offer Bitcoin payments. here's an example of 0.5 USD or EUR you can copy paste to your website: 
+- you can just place a link on your website to offer Dash payments. here's an example of 0.5 USD or EUR you can copy paste to your website: 
 <a href=payment.php?orderid=donation&ordertotal=0.5>donate BTC</a>
 - you can change the currency from USD to EUR
 - you can set the language
 
-donations
-- feel free to donate BTC: 1NbW9pAncJs9pPF4qZ57cGbpBhwaH9DEjh
+
 
 disclaimer
-- this software is not fully tested except that payments arrive at mt gox if all is well ;-)
+- this software is not fully tested 
 - use it at your own risk
